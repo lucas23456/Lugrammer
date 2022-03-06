@@ -14,7 +14,7 @@ export const tokenTypesList = {
     'VARIABLE': new TokenType('VARIABLE', '[а-я]*'),
     'SEMICOLON': new TokenType('SEMICOLON', ';'),
     'SPACE': new TokenType('SPACE', '[ \\n\\t\\r]'),
-    'ASSIGN': new TokenType('ASSIGN', 'ДЕБИЛ'),
+    'ASSIGN': new TokenType('ASSIGN', 'РАВНО'),
     'LOG': new TokenType('LOG', 'ПОЧЕМУ_НЕ_ОТВЕЧАЕШЬ'),
     'PLUS': new TokenType('PLUS', 'ЗАНЯТ'),
     'MINUS': new TokenType('MINUS', 'ОТСТАНЬ'),
